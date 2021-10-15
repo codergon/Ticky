@@ -1,0 +1,80 @@
+.create_tic {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-variation-settings: "wght" 450;
+}
+
+.create_tic_inn {
+  max-width: 255px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+.create_tic_hd {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.create_tic_warn {
+  width: 100%;
+  color: #d00;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.create_tic_inp_cont {
+  width: 100%;
+  display: flex;
+  margin: 10px 0px;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 3px 8px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+
+.create_tic_inp_cont i {
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.create_tic_inp {
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 8px 0px 8px 3px;
+  background: transparent;
+  font-family: satoshi;
+}
+.create_tic_inp::placeholder {
+  font-size: 14px;
+  color: #777;
+}
+
+.create_tic_inn a {
+  width: 100%;
+
+  cursor: pointer;
+}
+.create_tic_inn button {
+  color: #fff;
+  width: 100%;
+  padding: 12px 0px;
+  background: #200fff;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

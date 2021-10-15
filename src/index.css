@@ -1,0 +1,208 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: amulya;
+  overflow-x: hidden;
+  font-variation-settings: "wght" 500;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+li,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+  background: initial;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+
+  -webkit-tap-highlight-color: transparent;
+}
+*:focus {
+  outline: none !important;
+}
+
+/* Main
+=========== */
+main {
+  min-height: 70vh;
+  padding-bottom: 8vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar component
+================== */
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20px 5vw 12px 4vw;
+  /* border-bottom: 1px solid #ccc; */
+  justify-content: space-between;
+  font-variation-settings: "wght" 550;
+}
+.nav_rt i {
+  font-size: 13px;
+  transform: rotate(30deg);
+}
+
+/* Heady component
+====================== */
+.heady {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20vh 0px 7vmax;
+  justify-content: center;
+  font-variation-settings: "wght" 550;
+}
+.nav_rt i {
+  font-size: 13px;
+}
+
+.heady_pre {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.heady_pre p {
+  display: flex;
+  color: #666;
+  font-size: 14px;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.015rem;
+  font-family: amulya;
+  margin-right: 10px;
+}
+.heady_pre p:first-child {
+  color: #200fff;
+  font-size: 15px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.heady_pre p span {
+  padding-top: 2px;
+  font-size: 10px;
+  font-variation-settings: "wght" 700;
+}
+
+/* 
+========================= */
+.tick_cont {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.tick_connected {
+  width: 60vw;
+  max-width: 300px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.tick_box {
+  width: 75vw;
+  height: 75vw;
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.tick_box .box {
+  display: flex;
+  font-variation-settings: "wght" 800;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  width: calc((100% / 3) - 10px);
+  height: calc((100% / 3) - 10px);
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 5px;
+  cursor: pointer;
+  font-family: satoshi;
+  border-radius: 10px;
+}
+
+.winMesTic {
+  margin: 20px 0px 10px;
+}
+
+.clearTic {
+  color: #200fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  letter-spacing: 0.015rem;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Media Queries
+========================= */
+
+@media (max-width: 450px) {
+  nav {
+    font-size: 12px !important;
+  }
+  .nav_rt1 i {
+    font-size: 11px !important;
+    margin-right: 2px;
+  }
+}

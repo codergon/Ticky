@@ -1,0 +1,95 @@
+footer {
+  width: 100vw;
+  color: #fff;
+  padding: 10vw 0px;
+  background: #000;
+  font-variation-settings: "wght" 400;
+}
+
+.ft_inn {
+  width: 87vw;
+  margin: 0 auto;
+}
+
+.ft_r1 {
+  display: flex;
+  margin-bottom: 2rem;
+  flex-direction: column;
+}
+
+.ft_r1 img {
+  width: auto;
+  height: 1.3rem;
+}
+
+.ft_logo {
+  margin-bottom: 0.5rem;
+}
+.ft_r1 .ft_cap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  justify-content: space-between;
+}
+.ft_cap p {
+  font-size: 12px;
+}
+.ft_cap i {
+  font-size: 1.15rem;
+  margin: 0px 12px;
+  margin-bottom: -0.1rem;
+}
+.ft_cap i:nth-child(1) {
+  color: #00acee;
+  /* color: #0048ff; */
+}
+.ft_cap i:last-child {
+  color: #0bdc6c;
+  color: #eee;
+  margin-right: 0px;
+}
+
+.ft_r2 {
+  height: 1.5px;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(
+    90deg,
+    #2b0fff,
+    #eaac60 33%,
+    #f93e3e 50%,
+    #9755ed 77%,
+    #54ea81 100%
+  );
+  background-size: 350% 350%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ft_r3 {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ft_r3 ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.ft_r3 p:first-child {
+  font-size: 10px;
+}
